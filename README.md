@@ -70,7 +70,7 @@ If we have a number range of integers from 1 (inclusive) to 2048 or 2^11 (exclus
 It makes sense because binary search splits the set of numbers to get the average. Therefore, the maximum number of attempts, whether the maximum is inclusive or exclusive, is related to how many times the original set of numbers can be split into two.
  
 
-What happens if the number range minimun is not 1?
+What happens if the number range minimum is not 1?
 ----------------------------------------------
 For example, what is the total possible number of attempts when the number range is composed of consecutive integers from 2 to 1024 (or 2^n where n =10).
 
