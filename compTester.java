@@ -9,6 +9,7 @@ public class compTester
        for (int j=0; j<100; j++)
        {
            int max=1024;
+           //maximum number of attempts will  be 10 because 2^10 = 1024 (see Readme)
            int min=1;
            Random rand = new Random();
            int r = rand.nextInt(max-min+1) + min; 
