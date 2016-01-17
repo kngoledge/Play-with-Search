@@ -18,7 +18,7 @@ If the randum number range is consecutive integers 1 (inclusive) to 2^n (inclusi
 However, if the number range is consecutive integers 1 (inclusive) to 2^n (exclusive), the maximum number of attempts is n.
 
 
-Why:
+Why
 ----
 
 Let's say we have a number range of integers from 1 (inclusive) to 4 or 2^2 (inclusive). 
