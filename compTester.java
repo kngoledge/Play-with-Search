@@ -5,7 +5,7 @@ public class compTester
     public static void main(String args[])
     
     {
-       //computer generates random number
+       //computer generates random number and plays game 100 times
        for (int j=0; j<100; j++)
        {
            int max=1024;
