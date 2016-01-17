@@ -67,7 +67,7 @@ So if we have a number range of consecutive integers from 1 (inclusive) to 1024 
 If we have a number range of integers from 1 (inclusive) to 2048 or 2^11 (exclusive), the number number of attempts is also 11.
 
 
-It makes sense because binary search splits the set of numbers to get the average. Therefore, the maximum number of attempts, whether the maximum is inclusive or exclusive, is related to how many times the original set of numbers can be split into two.
+It makes sense because binary search splits the set of numbers in half to get the average. Therefore, the maximum number of attempts, whether the maximum is inclusive or exclusive, is related to how many times the original set of numbers can be split into two.
  
 
 What happens if the number range minimum is not 1?
