@@ -8,7 +8,7 @@ public class compTester
        //computer generates random number
        for (int j=0; j<100; j++)
        {
-           int max=16384;
+           int max=1024;
            int min=1;
            Random rand = new Random();
            int r = rand.nextInt(max-min+1) + min; 
