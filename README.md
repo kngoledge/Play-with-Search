@@ -12,20 +12,40 @@ If the randum number range is consecutive integers 1 (inclusive) to 2^n (inclusi
 However, if the number range is consecutive integers 1 (inclusive) to 2^n (exclusive), the maximum number of attempts is n.
 
 Why:
------------
+----
 
 Let's say we have a number range of integers from 1 (inclusive) to 4 or 2^2 (inclusive). 
 In this scenerio, the computer generated random number is 4.
+
+
 int c = 4
+
+
 If we use binary search, the first number to be guessed is 2 (since the average of 1 and 4 is 2.5 and we round down).
+
+
 int g = 2
+
+
 c > g, so the new number range that the program in computergame.java will use to calculate its guess is from 3 (inclusive) to 4.
 The program will guess 3 next (since the average of 3 and 4 is 3.5 and we round down).
-g += 1
-The program's last guess will be 4, since 4 is the only number in the given range that is greater than 3.
+
+
 g += 1
 
+
+The program's last guess will be 4, since 4 is the only number in the given range that is greater than 3.
+
+
+g += 1
+
+
+Now, 
+
+
 g == c
+
+
 Attempts: 3. 
 
 
